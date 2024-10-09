@@ -5,3 +5,10 @@ package com.example.reply.ui.utils
     NAVIGATION_RAIL,
     PERMANENT_NAVIGATION_DRAWER
 }
+
+//canonical layouts
+
+enum class ReplyContentType {
+    LIST_ONLY,
+    LIST_AND_DETAIL
+}
